@@ -1,0 +1,12 @@
+{
+  "name": "Test_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon  C:\\My_project\\Test_project> "
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
