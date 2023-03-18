@@ -19,6 +19,7 @@ const authGuard = (req:Request,res:Response,next:NextFunction) => {
         res.status(400).send("verification failed")
     }
 }
+
 app.use(middleWare)
 app.use(authGuard)
 app.get('/videos', (req,res)=> {
